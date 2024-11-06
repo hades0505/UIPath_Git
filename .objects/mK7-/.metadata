@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Firefox Automation Developer Professional Training  UIPath",
+  "Type": "App",
+  "Id": "mK7-JFG70EGAELN0S84omg",
+  "Reference": "8bQTJhJWoU2Qonnr-BMoOA/mK7-JFG70EGAELN0S84omg",
+  "Created": "2024-11-06T14:13:34.0292627Z",
+  "Updated": "2024-11-06T14:13:34.0292627Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

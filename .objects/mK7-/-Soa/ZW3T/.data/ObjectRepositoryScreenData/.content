@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="UmbAhWi1YkKSfkSaG4DPLg" Reference="8bQTJhJWoU2Qonnr-BMoOA/ZW3TVZgSfUavq3X4FnKxjQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="0, 0, 0, 0" BrowserType="Firefox" ContentHash="VgtXOKXQg0ifukyc0Q95pw" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAyVBMVEUAAAD/SST/SRj/Rxj6Rxj7SBn7Rhb7SBn7Shz8SBb6SBb6Rxf8Rxn8Rxf8Rhb8SBj6SBb6Rxf7Rxf6Rhb6SBf6Rxb7Rxb7Rhf7Rxf6Rxb6Rhf7Rxf7Rhf6Rhb6Rhf6Rhf7Rhb6Rhb6Rhb6Rhb6Rxb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6RhYXYzDpAAAAQnRSTlMABAYMDhISFBYaHCosLi4wMDA6PEJETExOUlJeXmBkbnR6g4eJiYuNk5WZoaeprbW5u73Dx83R2ePl5+3v8/X3+/2VmgZIAAAAs0lEQVR42tXTxw6CYAAD4Lq3uBX3woEbFCcqff+H8gAxIfmFGPVgr/2OLegTfAUo8osoDpDxIvIHoLmehL1AluTQBVRNa9ndXNPqqJJcuMCO7NvgQHYQMngrewEE8zF4gowkRTyBSTb+D+jk1AYm2RaAJbkBACRIVgSgS1ppABiRjAtA8k4e27nC2CJXEAAMniO8poQgoDr9uQQhAIqz/eWk96IAgK1h1D7b5JvA9zg/Pu8DjpSRHOl1fWEAAAAASUVORK5CYII=" Reference="8bQTJhJWoU2Qonnr-BMoOA/ZW3TVZgSfUavq3X4FnKxjQ" Selector="&lt;html app='firefox.exe' title='*Training | UIPath' /&gt;" Title="Automation Developer Professional Training | UIPath" Url="https://cloud.uipath.com/magentatelekom/academy_/learning-plans/automation-developer-professional-training?lo_cId=course_38N1Y5vO85aaXbKzPtOGq_4Rih6q8tpi6J3FOX8gUgIx">
+      <imageRef attrName="InformativeScreenshot" originalValue="4882bd8b874e69283b4c9c702b8addf1.png" xmlns="">0ps0MRfRoME6bTTA1uZmSQA</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

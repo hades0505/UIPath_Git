@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="G7Jd7arp202as-YaF0OP8A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://cloud.uipath.com/magentatelekom/academy_/learning-plans/automation-developer-professional-training?lo_cId=course_5DSblIXJ9li7pylyNgzmAj_4Rih6q8tpi6J3FOX8gUgIx" CVScreenId="2dd3ddf9-7f40-4d39-a019-5c2986ea628c" DesignTimeRectangle="847, 1041, 54, 36" DesignTimeScaleFactor="0.89552241563797" ElementType="Button" FullSelectorArgument="&lt;webctrl id='surveyIframe' tag='IFRAME' /&gt;&lt;webctrl tag='BUTTON' visibleinnertext='OK' class='new-button ok-button user-generated*' /&gt;" Guid="59e850a6-9ea6-4dd1-bc93-d1349f9fc8be" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Automation Developer Professional Training | UIPath' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="e1f7a4d75386ec8db8b488912f8be007.png" xmlns="">0MjHixXA0Rkqe3Q-qN2OjGQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

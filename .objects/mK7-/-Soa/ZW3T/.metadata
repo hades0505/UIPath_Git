@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Firefox Automation Developer Professional Tra",
+  "Type": "Screen",
+  "Id": "ZW3TVZgSfUavq3X4FnKxjQ",
+  "Reference": "8bQTJhJWoU2Qonnr-BMoOA/ZW3TVZgSfUavq3X4FnKxjQ",
+  "ParentRef": "8bQTJhJWoU2Qonnr-BMoOA/-Soacq1p9kqt9SMxaIBe0w",
+  "Created": "2024-11-06T14:13:34.0483534Z",
+  "Updated": "2024-11-06T14:13:34.0483534Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,396 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.PDF.Activities</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Services.RuntimeAnalyze</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>System.Activities.Runtime.Collections</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Model</x:String>
+      <x:String>UiPath.Excel.Activities.Business</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.PDF.Activities</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.MetadataLoadContext</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1838,813" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="SysException" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="576,790" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_2" MaxIterations="20">
+      <ui:InterruptibleDoWhile.Body>
+        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="542,653" sap2010:WorkflowViewState.IdRef="Sequence_13">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="508,593" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <TryCatch.Try>
+              <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Firefox Automation Developer Professional Tra" sap:VirtualizedContainerService.HintSize="450,284" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="Simulate" ScopeGuid="ed22bdc9-5816-4973-9322-f6cea4b5d756" Version="V2">
+                <uix:NApplicationCard.Body>
+                  <ActivityAction x:TypeArguments="x:Object">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                    </ActivityAction.Argument>
+                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,67" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <uix:NCheckState DisplayName="Check App State 'Feedback Survey'" sap:VirtualizedContainerService.HintSize="1492,2551" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="ed22bdc9-5816-4973-9322-f6cea4b5d756" Timeout="5" Version="V4">
+                        <uix:NCheckState.IfExists>
+                          <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="988,2309" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                            <Sequence.Variables>
+                              <Variable x:TypeArguments="x:String" Default="1" Name="strRadioButtonOrdinal" />
+                            </Sequence.Variables>
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <Assign DisplayName="Initialize Button index" sap:VirtualizedContainerService.HintSize="954,114" sap2010:WorkflowViewState.IdRef="Assign_2">
+                              <Assign.To>
+                                <OutArgument x:TypeArguments="x:String">[strRadioButtonOrdinal]</OutArgument>
+                              </Assign.To>
+                              <Assign.Value>
+                                <InArgument x:TypeArguments="x:String">1</InArgument>
+                              </Assign.Value>
+                            </Assign>
+                            <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" Condition="[Cint(strRadioButtonOrdinal)&lt;22]" DisplayName="Do While - Click Radio Buttons" sap:VirtualizedContainerService.HintSize="954,536" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_1">
+                              <ui:InterruptibleDoWhile.Body>
+                                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="468,390" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click next available strongly aggree" sap:VirtualizedContainerService.HintSize="434,225" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ed22bdc9-5816-4973-9322-f6cea4b5d756" Version="V4">
+                                    <uix:NClick.Target>
+                                      <uix:TargetAnchorable BrowserURL="https://cloud.uipath.com/magentatelekom/academy_/learning-plans/automation-developer-professional-training?lo_cId=course_38N1Y5vO85aaXbKzPtOGq_4Rih6q8tpi6J3FOX8gUgIx" DesignTimeRectangle="860, 598, 18, 18" DesignTimeScaleFactor="0.89552241563797" FullSelectorArgument="[string.Format(&quot;&lt;webctrl id='surveyIframe' tag='IFRAME' /&gt;&lt;webctrl parentname='surveyForm' tag='SPAN' aaname='                                  ' class='radio-button-display ' idx='{0}' /&gt;&quot;, strRadioButtonOrdinal)]" Guid="e77d7c4c-310b-485e-a300-e4cff4b265ad" ImageBase64="" InformativeScreenshot="2dfc4c7b1b506d2a7eabec7f5b0386ed.png" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Automation Developer Professional Training | UIPath' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+                                    </uix:NClick.Target>
+                                    <uix:NClick.VerifyOptions>
+                                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                        <uix:VerifyExecutionOptions.Retry>
+                                          <InArgument x:TypeArguments="x:Boolean" />
+                                        </uix:VerifyExecutionOptions.Retry>
+                                        <uix:VerifyExecutionOptions.Timeout>
+                                          <InArgument x:TypeArguments="x:Double" />
+                                        </uix:VerifyExecutionOptions.Timeout>
+                                      </uix:VerifyExecutionOptions>
+                                    </uix:NClick.VerifyOptions>
+                                  </uix:NClick>
+                                  <Assign DisplayName="Increment by 5" sap:VirtualizedContainerService.HintSize="434,105" sap2010:WorkflowViewState.IdRef="Assign_1">
+                                    <Assign.To>
+                                      <OutArgument x:TypeArguments="x:String">[strRadioButtonOrdinal]</OutArgument>
+                                    </Assign.To>
+                                    <Assign.Value>
+                                      <InArgument x:TypeArguments="x:String">[(Cint(strRadioButtonOrdinal)+5).ToString]</InArgument>
+                                    </Assign.Value>
+                                  </Assign>
+                                </Sequence>
+                              </ui:InterruptibleDoWhile.Body>
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                            </ui:InterruptibleDoWhile>
+                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'No issues'" sap:VirtualizedContainerService.HintSize="954,225" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ed22bdc9-5816-4973-9322-f6cea4b5d756" Version="V4">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable BrowserURL="https://cloud.uipath.com/magentatelekom/academy_/learning-plans/automation-developer-professional-training?lo_cId=course_38N1Y5vO85aaXbKzPtOGq_4Rih6q8tpi6J3FOX8gUgIx" CVScreenId="8ab6f99f-738b-4442-8582-93f374472f71" DesignTimeRectangle="860, 1047, 18, 18" DesignTimeScaleFactor="0.89552241563797" FuzzySelectorArgument="&lt;webctrl id='surveyIframe' tag='IFRAME' /&gt;&lt;webctrl tag='SPAN' class='checkbox-button-display ' aaname='             ' /&gt;" Guid="cb9fc7f6-581f-47b6-be31-abdbe2e3818b" InformativeScreenshot="3ae338d121134ae2d44502a571a313e8.png" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Automation Developer Professional Training | UIPath' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                                  <uix:TargetAnchorable.Anchors>
+                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                      <uix:Target CVScreenId="8ab6f99f-738b-4442-8582-93f374472f71" DesignTimeRectangle="884, 1045, 756, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='surveyIframe' tag='IFRAME' /&gt;&lt;webctrl aaname='                     No issues                                      ' check:innerText='No issues' /&gt;" Guid="c72f8be7-221b-40db-abe7-bb1081178e9f" SearchSteps="FuzzySelector" />
+                                    </scg:List>
+                                  </uix:TargetAnchorable.Anchors>
+                                </uix:TargetAnchorable>
+                              </uix:NClick.Target>
+                              <uix:NClick.VerifyOptions>
+                                <uix:VerifyExecutionOptions DisplayName="Button 'Button 'OK''" Mode="Appears">
+                                  <uix:VerifyExecutionOptions.Retry>
+                                    <InArgument x:TypeArguments="x:Boolean" />
+                                  </uix:VerifyExecutionOptions.Retry>
+                                  <uix:VerifyExecutionOptions.Target>
+                                    <uix:TargetAnchorable BrowserURL="https://cloud.uipath.com/magentatelekom/academy_/learning-plans/automation-developer-professional-training?lo_cId=course_5DSblIXJ9li7pylyNgzmAj_4Rih6q8tpi6J3FOX8gUgIx" CVScreenId="2dd3ddf9-7f40-4d39-a019-5c2986ea628c" ContentHash="G7Jd7arp202as-YaF0OP8A" DesignTimeRectangle="847, 1041, 54, 36" DesignTimeScaleFactor="0.89552241563797" ElementType="Button" FullSelectorArgument="&lt;webctrl id='surveyIframe' tag='IFRAME' /&gt;&lt;webctrl tag='BUTTON' visibleinnertext='OK' class='new-button ok-button user-generated*' /&gt;" Guid="59e850a6-9ea6-4dd1-bc93-d1349f9fc8be" InformativeScreenshot="e1f7a4d75386ec8db8b488912f8be007.png" Reference="8bQTJhJWoU2Qonnr-BMoOA/Jrin37mU60CpfO04TDUN7Q" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Automation Developer Professional Training | UIPath' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+                                  </uix:VerifyExecutionOptions.Target>
+                                  <uix:VerifyExecutionOptions.Timeout>
+                                    <InArgument x:TypeArguments="x:Double" />
+                                  </uix:VerifyExecutionOptions.Timeout>
+                                </uix:VerifyExecutionOptions>
+                              </uix:NClick.VerifyOptions>
+                            </uix:NClick>
+                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Button 'OK''" sap:VirtualizedContainerService.HintSize="954,225" sap2010:WorkflowViewState.IdRef="NClick_12" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ed22bdc9-5816-4973-9322-f6cea4b5d756" Version="V4">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable BrowserURL="https://cloud.uipath.com/magentatelekom/academy_/learning-plans/automation-developer-professional-training?lo_cId=course_5DSblIXJ9li7pylyNgzmAj_4Rih6q8tpi6J3FOX8gUgIx" CVScreenId="2dd3ddf9-7f40-4d39-a019-5c2986ea628c" ContentHash="G7Jd7arp202as-YaF0OP8A" DesignTimeRectangle="847, 1041, 54, 36" DesignTimeScaleFactor="0.89552241563797" ElementType="Button" FullSelectorArgument="&lt;webctrl id='surveyIframe' tag='IFRAME' /&gt;&lt;webctrl tag='BUTTON' visibleinnertext='OK' class='new-button ok-button user-generated*' /&gt;" Guid="59e850a6-9ea6-4dd1-bc93-d1349f9fc8be" InformativeScreenshot="e1f7a4d75386ec8db8b488912f8be007.png" Reference="8bQTJhJWoU2Qonnr-BMoOA/Jrin37mU60CpfO04TDUN7Q" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Automation Developer Professional Training | UIPath' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+                              </uix:NClick.Target>
+                              <uix:NClick.VerifyOptions>
+                                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                  <uix:VerifyExecutionOptions.Retry>
+                                    <InArgument x:TypeArguments="x:Boolean" />
+                                  </uix:VerifyExecutionOptions.Retry>
+                                  <uix:VerifyExecutionOptions.Timeout>
+                                    <InArgument x:TypeArguments="x:Double" />
+                                  </uix:VerifyExecutionOptions.Timeout>
+                                </uix:VerifyExecutionOptions>
+                              </uix:NClick.VerifyOptions>
+                            </uix:NClick>
+                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Score = 8'" sap:VirtualizedContainerService.HintSize="954,225" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ed22bdc9-5816-4973-9322-f6cea4b5d756" Version="V4">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable BrowserURL="https://cloud.uipath.com/magentatelekom/academy_/learning-plans/automation-developer-professional-training?lo_cId=course_38N1Y5vO85aaXbKzPtOGq_4Rih6q8tpi6J3FOX8gUgIx" CVScreenId="ec851897-d7b5-4998-9a31-6871954aaf3a" DesignTimeRectangle="1461, 749, 18, 18" DesignTimeScaleFactor="0.89552241563797" ElementType="RadioButton" FullSelectorArgument="&lt;webctrl id='surveyIframe' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl visibleinnertext='8' class='radio-button-container ' /&gt;&lt;webctrl tag='INPUT' colName='                         8                     ' /&gt;" Guid="b64a5634-534d-4258-ab60-5136a55460bc" InformativeScreenshot="cd2394d0db44fcf57256b74921947078.png" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Automation Developer Professional Training | UIPath' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+                              </uix:NClick.Target>
+                              <uix:NClick.VerifyOptions>
+                                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                  <uix:VerifyExecutionOptions.Retry>
+                                    <InArgument x:TypeArguments="x:Boolean" />
+                                  </uix:VerifyExecutionOptions.Retry>
+                                  <uix:VerifyExecutionOptions.Timeout>
+                                    <InArgument x:TypeArguments="x:Double" />
+                                  </uix:VerifyExecutionOptions.Timeout>
+                                </uix:VerifyExecutionOptions>
+                              </uix:NClick.VerifyOptions>
+                            </uix:NClick>
+                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'DONE'" sap:VirtualizedContainerService.HintSize="954,225" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ed22bdc9-5816-4973-9322-f6cea4b5d756" Version="V4">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable BrowserURL="https://cloud.uipath.com/magentatelekom/academy_/learning-plans/automation-developer-professional-training?lo_cId=course_38N1Y5vO85aaXbKzPtOGq_4Rih6q8tpi6J3FOX8gUgIx" CVScreenId="de8b5323-f6bc-4629-92c3-f67975f78a86" DesignTimeRectangle="1204, 1310, 89, 49" DesignTimeScaleFactor="0.89552241563797" ElementType="Button" FullSelectorArgument="&lt;webctrl id='surveyIframe' tag='IFRAME' /&gt;&lt;webctrl aaname='                                                          DONE                                                      ' tag='BUTTON' /&gt;" Guid="55102f97-97f7-423f-bd10-103efb5c7504" InformativeScreenshot="1fa7ed7f4583f2b107b3799f275b47a4.png" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Automation Developer Professional Training | UIPath' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+                              </uix:NClick.Target>
+                              <uix:NClick.VerifyOptions>
+                                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                  <uix:VerifyExecutionOptions.Retry>
+                                    <InArgument x:TypeArguments="x:Boolean" />
+                                  </uix:VerifyExecutionOptions.Retry>
+                                  <uix:VerifyExecutionOptions.Timeout>
+                                    <InArgument x:TypeArguments="x:Double" />
+                                  </uix:VerifyExecutionOptions.Timeout>
+                                </uix:VerifyExecutionOptions>
+                              </uix:NClick.VerifyOptions>
+                            </uix:NClick>
+                            <uix:NCheckState DisplayName="Check App State 'Thank you for completin…'" sap:VirtualizedContainerService.HintSize="954,697" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="ed22bdc9-5816-4973-9322-f6cea4b5d756" Timeout="10" Version="V4">
+                              <uix:NCheckState.IfExists>
+                                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,455" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Done button clicked. Survey Completed. Moving to next survey&quot;]" />
+                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Next'" sap:VirtualizedContainerService.HintSize="416,218" sap2010:WorkflowViewState.IdRef="NClick_13" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ed22bdc9-5816-4973-9322-f6cea4b5d756" Version="V4">
+                                    <uix:NClick.Target>
+                                      <uix:TargetAnchorable BrowserURL="https://cloud.uipath.com/magentatelekom/academy_/learning-plans/automation-developer-professional-training?lo_cId=course_5DSblIXJ9li7pylyNgzmAj_4Rih6q8tpi6J3FOX8gUgIx" CVScreenId="0b0a2562-5dc7-415e-b1ef-53d356177b86" DesignTimeRectangle="2427, 138, 29, 18" DesignTimeScaleFactor="0.89552241563797" FullSelectorArgument="&lt;webctrl aaname='*Next*' tag='AP-TYPOGRAPHY' /&gt;" Guid="5fdeb4e8-095e-4da6-a2d8-cef469f17251" InformativeScreenshot="d2b28dc0a9bd522796540d22c30f7c57.png" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Automation Developer Professional Training | UIPath' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+                                    </uix:NClick.Target>
+                                    <uix:NClick.VerifyOptions>
+                                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                        <uix:VerifyExecutionOptions.Retry>
+                                          <InArgument x:TypeArguments="x:Boolean" />
+                                        </uix:VerifyExecutionOptions.Retry>
+                                        <uix:VerifyExecutionOptions.Timeout>
+                                          <InArgument x:TypeArguments="x:Double" />
+                                        </uix:VerifyExecutionOptions.Timeout>
+                                      </uix:VerifyExecutionOptions>
+                                    </uix:NClick.VerifyOptions>
+                                  </uix:NClick>
+                                </Sequence>
+                              </uix:NCheckState.IfExists>
+                              <uix:NCheckState.IfNotExists>
+                                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,91" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                </Sequence>
+                              </uix:NCheckState.IfNotExists>
+                              <uix:NCheckState.Target>
+                                <uix:TargetAnchorable BrowserURL="https://cloud.uipath.com/magentatelekom/academy_/learning-plans/automation-developer-professional-training?lo_cId=course_5DSblIXJ9li7pylyNgzmAj_4Rih6q8tpi6J3FOX8gUgIx" CVScreenId="ff9eee3e-f8f8-4885-a020-9efc5475497d" DesignTimeRectangle="8, 175, 2498, 149" DesignTimeScaleFactor="0.89552241563797" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='iFrameContainer' innertext='Thank you for completing*' idx='1' /&gt;" Guid="2892c6f6-ea59-4963-855f-857346d0192e" InformativeScreenshot="81cc198d77c288e19b85ee84f9faf182.png" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Automation Developer Professional Training | UIPath' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+                              </uix:NCheckState.Target>
+                            </uix:NCheckState>
+                          </Sequence>
+                        </uix:NCheckState.IfExists>
+                        <uix:NCheckState.IfNotExists>
+                          <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,455" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Not a survey. Skipping.&quot;]" />
+                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Next'" sap:VirtualizedContainerService.HintSize="416,218" sap2010:WorkflowViewState.IdRef="NClick_14" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ed22bdc9-5816-4973-9322-f6cea4b5d756" Version="V4">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable BrowserURL="https://cloud.uipath.com/magentatelekom/academy_/learning-plans/automation-developer-professional-training?lo_cId=course_5DSblIXJ9li7pylyNgzmAj_4Rih6q8tpi6J3FOX8gUgIx" CVScreenId="0b0a2562-5dc7-415e-b1ef-53d356177b86" DesignTimeRectangle="2427, 138, 29, 18" DesignTimeScaleFactor="0.89552241563797" FullSelectorArgument="&lt;webctrl aaname='*Next*' tag='AP-TYPOGRAPHY' /&gt;" Guid="5fdeb4e8-095e-4da6-a2d8-cef469f17251" InformativeScreenshot="d2b28dc0a9bd522796540d22c30f7c57.png" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Automation Developer Professional Training | UIPath' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+                              </uix:NClick.Target>
+                              <uix:NClick.VerifyOptions>
+                                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                  <uix:VerifyExecutionOptions.Retry>
+                                    <InArgument x:TypeArguments="x:Boolean" />
+                                  </uix:VerifyExecutionOptions.Retry>
+                                  <uix:VerifyExecutionOptions.Timeout>
+                                    <InArgument x:TypeArguments="x:Double" />
+                                  </uix:VerifyExecutionOptions.Timeout>
+                                </uix:VerifyExecutionOptions>
+                              </uix:NClick.VerifyOptions>
+                            </uix:NClick>
+                          </Sequence>
+                        </uix:NCheckState.IfNotExists>
+                        <uix:NCheckState.Target>
+                          <uix:TargetAnchorable BrowserURL="https://cloud.uipath.com/magentatelekom/academy_/learning-plans/automation-developer-professional-training?lo_cId=course_38N1Y5vO85aaXbKzPtOGq_4Rih6q8tpi6J3FOX8gUgIx" CVScreenId="12a22969-18c5-4aa4-afe2-d4abdc675b52" CvTextArea="847, 474, 223, 28" CvTextArgument="Feedback Survey" CvType="Text" DesignTimeRectangle="847, 472, 221, 30" DesignTimeScaleFactor="0.89552241563797" ElementType="Text" FullSelectorArgument="&lt;webctrl id='surveyIframe' tag='IFRAME' /&gt;&lt;webctrl tag='SPAN' visibleinnertext='Feedback Survey' /&gt;" Guid="b006ac4c-3994-48e4-ac15-70655e9e4e16" InformativeScreenshot="35f619262cbf0ae20381b37e419fbdb9.png" ScopeSelectorArgument="&lt;html app='firefox.exe' title='*UIPath' /&gt;" SearchSteps="Selector, CV" Version="V4" Visibility="Interactive" />
+                        </uix:NCheckState.Target>
+                      </uix:NCheckState>
+                    </Sequence>
+                  </ActivityAction>
+                </uix:NApplicationCard.Body>
+                <uix:NApplicationCard.TargetApp>
+                  <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Firefox" ContentHash="UmbAhWi1YkKSfkSaG4DPLg" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAyVBMVEUAAAD/SST/SRj/Rxj6Rxj7SBn7Rhb7SBn7Shz8SBb6SBb6Rxf8Rxn8Rxf8Rhb8SBj6SBb6Rxf7Rxf6Rhb6SBf6Rxb7Rxb7Rhf7Rxf6Rxb6Rhf7Rxf7Rhf6Rhb6Rhf6Rhf7Rhb6Rhb6Rhb6Rhb6Rxb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6RhYXYzDpAAAAQnRSTlMABAYMDhISFBYaHCosLi4wMDA6PEJETExOUlJeXmBkbnR6g4eJiYuNk5WZoaeprbW5u73Dx83R2ePl5+3v8/X3+/2VmgZIAAAAs0lEQVR42tXTxw6CYAAD4Lq3uBX3woEbFCcqff+H8gAxIfmFGPVgr/2OLegTfAUo8osoDpDxIvIHoLmehL1AluTQBVRNa9ndXNPqqJJcuMCO7NvgQHYQMngrewEE8zF4gowkRTyBSTb+D+jk1AYm2RaAJbkBACRIVgSgS1ppABiRjAtA8k4e27nC2CJXEAAMniO8poQgoDr9uQQhAIqz/eWk96IAgK1h1D7b5JvA9zg/Pu8DjpSRHOl1fWEAAAAASUVORK5CYII=" InformativeScreenshot="4882bd8b874e69283b4c9c702b8addf1.png" Reference="8bQTJhJWoU2Qonnr-BMoOA/ZW3TVZgSfUavq3X4FnKxjQ" Selector="&lt;html app='firefox.exe' title='*Training | UIPath' /&gt;" Title="Automation Developer Professional Training | UIPath" Url="https://cloud.uipath.com/magentatelekom/academy_/learning-plans/automation-developer-professional-training?lo_cId=course_38N1Y5vO85aaXbKzPtOGq_4Rih6q8tpi6J3FOX8gUgIx" />
+                </uix:NApplicationCard.TargetApp>
+              </uix:NApplicationCard>
+            </TryCatch.Try>
+            <TryCatch.Catches>
+              <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="474,408" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ActivityAction x:TypeArguments="s:Exception">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                  </ActivityAction.Argument>
+                  <Sequence sap:VirtualizedContainerService.HintSize="468,338" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_3">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:String">[SysException]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:String">[exception.Message]</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,164" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Error" Message="[SysException]" />
+                  </Sequence>
+                </ActivityAction>
+              </Catch>
+            </TryCatch.Catches>
+          </TryCatch>
+        </Sequence>
+      </ui:InterruptibleDoWhile.Body>
+      <ui:InterruptibleDoWhile.Condition>
+        <VisualBasicValue x:TypeArguments="x:Boolean" DisplayName="Visual basic value" ExpressionText="String.IsNullOrEmpty(SysException)" />
+      </ui:InterruptibleDoWhile.Condition>
+    </ui:InterruptibleDoWhile>
+  </Sequence>
+</Activity>
